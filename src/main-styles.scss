@@ -3,7 +3,7 @@
 
 $turquoise: #44ddd0;
 $green: #27d7a1;
-$light-green: #45f69e; 
+$light-green: #45f69e;
 $dark-green: rgb(0, 100, 80);
 
 $light: #f8f8f8;
@@ -24,4 +24,37 @@ $input-shadow: none;
 
 html {
     background: linear-gradient(to right top, $turquoise, $green);
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.moral-box {
+    min-height: 280px;
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.white-box {
+    padding: 35px;
+    background: white;
+    border-radius: 5px;
+
+    width: 350px;
+    max-width: 350px;
+    
 }
