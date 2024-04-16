@@ -4,5 +4,4 @@ export class Task {
     _listId?: string;
     description?: string;
     completed?: boolean;
-    
 }
